@@ -15,3 +15,7 @@ function destructivelyAddElementToEndOfArray(arrayName,element){
   arrayName.push(element);
   return arrayName;
 }
+
+function accessElementInArray(arrayName,index){
+  
+}
