@@ -20,4 +20,7 @@ function accessElementInArray(arrayName,index){
   return arrayName[index];
 }
 
-function
+function destructivelyRemoveElementFromBeginningOfArray(arrayName){
+  arrayName.shift;
+  return arrayName;
+}
